@@ -1,0 +1,32 @@
+{
+  "name": "cdw-wallet",
+  "version": "1.0.0",
+  "description": "cdw-wallet folder structure",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "jest"
+  },
+  "author": "sakthivel",
+  "license": "ISC",
+  "dependencies": {
+    "@joi/date": "^2.1.0",
+    "axios": "^1.4.0",
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "dayjs": "^1.11.7",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "helmet": "^6.1.5",
+    "joi": "^17.9.1",
+    "jsonwebtoken": "^9.0.0",
+    "winston": "^3.8.2",
+    "winston-daily-rotate-file": "^4.7.1"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0",
+    "mysql2": "^3.2.4",
+    "nodemon": "^2.0.22",
+    "sinon": "^15.0.4"
+  }
+}
